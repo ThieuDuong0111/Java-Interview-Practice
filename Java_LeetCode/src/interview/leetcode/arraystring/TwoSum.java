@@ -131,6 +131,7 @@ public class TwoSum {
 //				11521, 34414, 7826, 33759, 56825, 19792 };
 //
 //		int target = 76617;
+		
 		System.out.println("length of array: " + nums.length);
 		long startTimeBruteForce = System.nanoTime();
 		int[] resultBurteForce = twoSumBruteForce(nums, target);
