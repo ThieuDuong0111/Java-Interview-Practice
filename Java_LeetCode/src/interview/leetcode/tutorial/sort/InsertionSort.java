@@ -1,5 +1,12 @@
 package interview.leetcode.tutorial.sort;
 
+/*Time Complexity (Độ phức tạp thời gian)
+Trường hợp		Độ phức tạp
+Best case		O(n)
+Average case	O(n²)
+Worst case		O(n²)
+*/
+
 //Sắp xếp [5, 2, 4, 6, 1]
 //
 //Bước 1: [2, 5, 4, 6, 1]
@@ -29,10 +36,10 @@ public class InsertionSort {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 6, 9, 4, 3, 10, 2, 5 };
-		insertionSort(arr);
+		int[] nums = { 6, 9, 4, 3, 10, 2, 5 };
+		insertionSort(nums);
 		System.out.println("Output:");
-		for (int i : arr) {
+		for (int i : nums) {
 			System.out.print(i + " ");
 		}
 	}

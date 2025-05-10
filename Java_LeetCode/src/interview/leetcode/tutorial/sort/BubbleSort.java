@@ -1,5 +1,12 @@
 package interview.leetcode.tutorial.sort;
 
+/*Độ phức tạp
+Trường hợp		Độ phức tạp
+Tốt nhất		O(n)
+Trung bình		O(n²)
+Xấu nhất		O(n²)
+Không gian phụ	O(1)*/
+
 public class BubbleSort {
 
 	public static void bubbleSort(int[] nums) {
@@ -21,10 +28,10 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 6, 9, 4, 3, 10, 2, 5 };
-		bubbleSort(arr);
+		int[] nums = { 6, 9, 4, 3, 10, 2, 5 };
+		bubbleSort(nums);
 		System.out.println("Output:");
-		for (int i : arr) {
+		for (int i : nums) {
 			System.out.print(i + " ");
 		}
 	}
