@@ -14,6 +14,5 @@ public class Main {
 		UserController userController2 = new UserController();
 		userController2.injectNotificationService(emailService);
 		userController2.send("Hello");
-
 	}
 }
